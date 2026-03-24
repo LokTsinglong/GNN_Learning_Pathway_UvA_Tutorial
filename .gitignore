@@ -1,0 +1,17 @@
+# 忽略 Jupyter Notebook 的运行缓存
+.ipynb_checkpoints/
+
+# 忽略 Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略 VSCode 的配置文件（这是你本地的偏好，不用传上去）
+.vscode/
+
+# 🚨 核心：忽略数据集和下载的预训练模型！
+data/
+saved_models/
+
+# 忽略虚拟环境文件夹（如果你不小心把它建在了项目里）
+gnn_env/
