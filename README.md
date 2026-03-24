@@ -36,7 +36,7 @@ pip install matplotlib seaborn tqdm ipykernel urllib3
 ## 💡 学习心得与踩坑记录
 1. **环境配置的黄金法则：** “终端装新包 ➡️ Notebook 重启 Kernel”。不重启，不认包。
 2. **终端避坑：** 在 VSCode 中使用 Conda 环境时，应避免使用 PowerShell (PS)，最好切换至传统的 Command Prompt (CMD)，以确保 `conda activate` 成功执行。
-3. **图的初印象：** 在 PyTorch 中，图并不是画出来的，而是由“节点特征矩阵 (Node Features, X)”和“边索引矩阵 (Edge Index, A)”这两个张量 (Tensor) 构成的。
+
 
 ## 🙏 致谢
 感谢原作者 Phillip Lippe 提供的极高质量 Tutorial，以及在此过程中协助我梳理思路的 AI 助教。
